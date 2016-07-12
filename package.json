@@ -1,0 +1,17 @@
+{
+  "name": "webcam-twitter-bot",
+  "version": "0.0.1",
+  "description": "WebcamTwitterBot",
+  "main": "TwitterBot.js",
+  "author": "Luke Zhang",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "jsdom": "^9.4.1",
+    "mkdirp": "^0.5.1",
+    "twit": "^2.2.4"
+  }
+}
