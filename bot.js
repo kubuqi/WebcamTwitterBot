@@ -146,7 +146,7 @@ function periodic_callback() {
     let time = new Date();
 
     console.log(time.toTimeString());
-    if (time.getHours()>last_hour || time.getHours() == 0) {
+    if (time.getHours() > last_hour || (time.getHours() == 0 && last_hour == 23)) {
         geturl_download_upload('yarmouthskatepark');
         last_hour = time.getHours();
     }
